@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: do-visit-counter-frontend
+spec:
+    selector:
+        app: do-visit-counter-frontend
+    ports:
+        - protocol: TCP
+          port: 80
+          targetPort: 8000
