@@ -19,6 +19,6 @@ def hello_world():
 
     increase_counter(counter_endpoint)
 
-    return f"""Hello, World!
+    return f"""Hello, Jaeger!
 
 You're visitor number {counter} in here!\n\n"""
